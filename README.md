@@ -4,7 +4,7 @@ Repository ini berisi tentang source code yang menampilkan website page dari seb
 
 ## Isi Repository
 
-1. [Enkripsi Caesar Cipher](enkripsi_caesar_cipher.html.html)
+1. [Enkripsi Caesar Cipher](enkripsi_caesar_cipher.html)
 2. [Main (Javascript)](main.js)
 
 ## Link Live Preview
