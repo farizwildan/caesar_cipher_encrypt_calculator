@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+		<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+		<title>Caesar Cipher Encryption</title>
+	</head>
+<body class="bg-dark bg-opacity-10">
+	<nav class="navbar navbar-expand-lg bg-primary">
+		<div class="container-fluid">
+			<i class="bi bi-shield-lock-fill text-light">
+				<i class="text-light fw-semibold">Caesar Cipher</i>
+			</i>
+		</div>
+	</nav>
+	<br>
+
+	<div class="card mx-auto col-10 col-md-5 col-lg-6 border-primary" style="max-width:100%;height:auto;" >
+		<div class="card-body">
+			<br>
+			<div class="container text-center">
+				<div class="col">
+					<h1 class="h1 ">Caesar Cipher Encryption</h1>
+				</div>
+				<br>
+			</div>
+
+			<form>
+				<div class="col-12">
+					<div class="form-label mx-auto col-12 col-md-8 col-lg-6">
+						<label for="plaintext" class="fw-bold">Plaintext:</label>
+						<input type="text" class="form-control" id="plaintext" placeholder="Masukkan Plaintext">
+					</div>
+					<div class="form-label mx-auto col-12 col-md-8 col-lg-6">
+						<label for="Key" class="fw-bold">Key:</label>
+						<input type="number" class="form-control" id="key" placeholder="Masukkan Key">
+					</div>
+					<div class="form-label mx-auto col-12 col-md-8 col-lg-6">
+						<label for="plaintext" class="fw-bold">Ciphertext:</label>
+						<input type="text" class="form-control" id="ciphertext" placeholder="Hasil Cipehertext" readonly>
+					</div>
+				</div>
+					
+				
+			</form>
+			<div class="container text-center">
+				<button onclick="encrypt()" class="btn btn-primary">Encrypt</button>
+			</div>
+			<br>
+		</div>
+	</div>
+
+	
+	
+	<script src="main.js"></script>
+
+</body>
+</html>
